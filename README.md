@@ -40,12 +40,4 @@ This is a Real-Time Chat App built with FastAPI and MongoDB.
   
 6. Access the application in your browser at ```http://localhost:8000```.
 
-  API Endpoints
-  POST /register: Register a new user.
-  POST /login: Authenticate and obtain an access token.
-  GET /protected: Access a protected route.
-  POST /token: Generate a new access token.
-  GET /messages/{username}: Get chat messages between the authenticated user and the specified recipient.
-  POST /messages: Send a chat message to a recipient.
-  WebSocket Endpoint
-  /ws/{username}: Establish a WebSocket connection for real-time messaging.
+  
