@@ -29,7 +29,7 @@ This is a Real-Time Chat App built with FastAPI and MongoDB.
 3. Install the dependencies:
    ```pip install -r requirements.txt```
    
-5. Set up the MongoDB connection:  Make sure MongoDB is installed and running on your machine. Update the MongoDB connection URL in the app.py file:
+4. Set up the MongoDB connection:  Make sure MongoDB is installed and running on your machine. Update the MongoDB connection URL in the app.py file:
   ```client = MongoClient("mongodb://localhost:27017/")```
   ```db = client["realtime_app"]```
   ```collection = db["realtimes"]```
